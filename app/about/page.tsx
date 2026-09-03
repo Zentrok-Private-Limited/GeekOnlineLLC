@@ -69,10 +69,10 @@ export default function AboutPage() {
           </p>
           <div className="space-y-4 text-slate-600 text-sm md:text-base leading-relaxed">
             <p>
-              <strong className="text-slate-900 font-bold">Webmatic Solutions LLC</strong> was founded in 2023 with a clear vision to be a leader in delivering perfect, professional, and responsible technology solutions. We aim to provide exceptional services that evolve with the needs of our clients, enabling them to stay ahead in the rapidly changing tech landscape. Our commitment is to offer innovative and transformational tech services that go beyond the ordinary, ensuring the highest level of customer satisfaction.
+              <strong className="text-slate-900 font-bold">Webmatic Solutions LLC</strong> was founded in 2026 with a clear vision to be a leader in delivering perfect, professional, and responsible technology solutions. We aim to provide exceptional services that evolve with the needs of our clients, enabling them to stay ahead in the rapidly changing tech landscape. Our commitment is to offer innovative and transformational tech services that go beyond the ordinary, ensuring the highest level of customer satisfaction.
             </p>
             <p>
-              With a dedicated focus on both individuals and businesses, Innometrics Software strives to provide round-the-clock support, ensuring that clients can rely on us 24 hours a day, 7 days a week, and 365 days a year. Whether it&apos;s troubleshooting software issues, setting up secure networks, or addressing complex cybersecurity challenges, we are here to deliver comprehensive and timely solutions. Our mission is simple: keep systems running smoothly, minimize downtime, and maximize efficiency, allowing clients to focus on what matters most—growing their businesses and achieving their goals.
+              With a dedicated focus on both individuals and businesses, Webmatic Solutions LLC strives to provide round-the-clock support, ensuring that clients can rely on us 24 hours a day, 7 days a week, and 365 days a year. Whether it&apos;s troubleshooting software issues, setting up secure networks, or addressing complex cybersecurity challenges, we are here to deliver comprehensive and timely solutions. Our mission is simple: keep systems running smoothly, minimize downtime, and maximize efficiency, allowing clients to focus on what matters most—growing their businesses and achieving their goals.
             </p>
           </div>
         </div>
