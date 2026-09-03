@@ -141,38 +141,7 @@ function Footer() {
               network setup, cybersecurity, and more, ensuring smooth
               operational metrics.
             </p>
-            <div className="flex gap-3 pt-2">
-              <a
-                href="#"
-                className="p-2.5 bg-white hover:bg-emerald-600 hover:text-white rounded-full border border-slate-200 text-slate-500 shadow-sm transition"
-              >
-                <FaFacebookF size={12} />
-              </a>
-              <a
-                href="#"
-                className="p-2.5 bg-white hover:bg-emerald-600 hover:text-white rounded-full border border-slate-200 text-slate-500 shadow-sm transition"
-              >
-                <FaTwitter size={12} />
-              </a>
-              <a
-                href="#"
-                className="p-2.5 bg-white hover:bg-emerald-600 hover:text-white rounded-full border border-slate-200 text-slate-500 shadow-sm transition"
-              >
-                <FaInstagram size={12} />
-              </a>
-              <a
-                href="#"
-                className="p-2.5 bg-white hover:bg-emerald-600 hover:text-white rounded-full border border-slate-200 text-slate-500 shadow-sm transition"
-              >
-                <FaLinkedinIn size={12} />
-              </a>
-              <a
-                href="#"
-                className="p-2.5 bg-white hover:bg-emerald-600 hover:text-white rounded-full border border-slate-200 text-slate-500 shadow-sm transition"
-              >
-                <FaYoutube size={12} />
-              </a>
-            </div>
+            
           </div>
 
           <div className="col-span-2 md:col-span-1 space-y-4">
