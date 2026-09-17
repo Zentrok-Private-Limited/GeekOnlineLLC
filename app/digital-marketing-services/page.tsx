@@ -57,7 +57,7 @@ export default function DigitalMarketingServices() {
           <p>
             In today’s fast-paced digital world, a strong online presence isn’t
             just an advantage—it’s a necessity. At{" "}
-            <strong>Webmatic Solutions LLC</strong>, we help businesses stand
+            <strong>Geek Online LLC</strong>, we help businesses stand
             out, engage, and convert by crafting data-driven, results-oriented
             digital marketing strategies. Our goal is to elevate your brand’s
             visibility, strengthen customer connections, and drive measurable
@@ -80,7 +80,7 @@ export default function DigitalMarketingServices() {
             brand positioning and customer acquisition.
           </p>
           <p>
-            At Webmatic Solutions LLC, we don’t just market your business—we
+            At Geek Online LLC, we don’t just market your business—we
             build powerful digital experiences that drive engagement, growth,
             and brand loyalty. Let’s take your digital presence to the next
             level with strategies that work.

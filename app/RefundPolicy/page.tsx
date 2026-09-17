@@ -27,7 +27,7 @@ export default function RefundAndReturnPolicy() {
             <div className="p-6 bg-slate-50 rounded-xl border border-slate-100 mb-6">
               <h3 className="text-lg font-bold text-slate-900 mb-2">Overview</h3>
               <p className="text-sm">
-                At Webmatic Solutions LLC, customer satisfaction is our top priority. This policy outlines the terms for cancellations and returns in compliance with applicable laws.
+                At Geek Online LLC, customer satisfaction is our top priority. This policy outlines the terms for cancellations and returns in compliance with applicable laws.
               </p>
             </div>
 
@@ -53,7 +53,7 @@ export default function RefundAndReturnPolicy() {
               You may cancel your order before it is shipped by contacting our support team at:
             </p>
             <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
-              <li>billing@webmaticsolutionsllc.com</li>
+              <li>billing@geekonlinellc.com</li>
             </ul>
             <p className="mt-2">or via live chat support.</p>
             <p className="mt-2">
@@ -127,7 +127,7 @@ export default function RefundAndReturnPolicy() {
 
             <p className="font-semibold text-slate-800 mt-6">Chargebacks</p>
             <p className="mt-1">
-              If you believe there has been an error with your payment, please contact Webmatic Solutions LLC before initiating a dispute or chargeback. We will make every reasonable effort to resolve billing concerns promptly. Chargebacks filed for services that have already been provided may be contested with supporting service records and documentation.
+              If you believe there has been an error with your payment, please contact Geek Online LLC before initiating a dispute or chargeback. We will make every reasonable effort to resolve billing concerns promptly. Chargebacks filed for services that have already been provided may be contested with supporting service records and documentation.
             </p>
           </div>
 
@@ -192,14 +192,14 @@ export default function RefundAndReturnPolicy() {
             </div>
 
             <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 text-slate-700">
-              <p className="font-semibold text-slate-900">Webmatic Solutions LLC</p>
+              <p className="font-semibold text-slate-900">Geek Online LLC</p>
               <p>212 N. 2nd St. STE 100,</p>
               <p>Richmond, KY 40475</p>
               <p className="mt-2">
                 Email:
               </p>
               <ul className="list-disc pl-5 text-sm mt-1">
-                <li><a href="mailto:billing@webmaticsolutionsllc.com" className="text-emerald-600 underline">billing@webmaticsolutionsllc.com</a></li>
+                <li><a href="mailto:billing@geekonlinellc.com" className="text-emerald-600 underline">billing@geekonlinellc.com</a></li>
               </ul>
             </div>
           </div>

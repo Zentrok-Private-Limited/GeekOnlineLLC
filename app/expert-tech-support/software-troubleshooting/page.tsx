@@ -37,7 +37,7 @@ export default function SoftwareTroubleshooting() {
             Get expert software troubleshooting services for all your computer software issues, from device driver troubleshooting to application software problems, including Linux OS and hardware support.
           </p>
           <p className="text-slate-600 leading-relaxed">
-            At <strong>Webmatic Solutions LLC</strong>, we understand how frustrating it can be when software issues slow down your systems. Our team is here to help you get back on track by providing practical solutions that keep your systems running smoothly, across a range of operating systems including Linux.
+            At <strong>Geek Online LLC</strong>, we understand how frustrating it can be when software issues slow down your systems. Our team is here to help you get back on track by providing practical solutions that keep your systems running smoothly, across a range of operating systems including Linux.
           </p>
         </div>
         <div className="w-full aspect-[4/3] bg-slate-200 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">

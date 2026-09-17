@@ -63,7 +63,7 @@ export default function NetworkDesignAndSetup() {
           </p>
 
           <p className="text-slate-600 leading-relaxed">
-            At <strong>Webmatic Solutions LLC</strong>, we specialize in
+            At <strong>Geek Online LLC</strong>, we specialize in
             delivering comprehensive network design and setup services tailored
             to your business needs. Our expert team handles everything from
             initial network planning and design to full implementation and

@@ -38,7 +38,7 @@ export default function DeviceOptimization() {
             Enhance your device and system performance with expert optimization techniques, ensuring improved efficiency, speed, and reliability. Let us help you optimize system performance for smoother operations.
           </p>
           <p className="text-slate-600 leading-relaxed">
-            At <strong>Webmatic Solutions LLC</strong>, we specialize in device and system optimization, ensuring your systems run at peak performance. Our expert team uses proven system optimization techniques to enhance efficiency, speed, and overall reliability. Whether you need to optimize device performance or boost system performance across multiple devices, we tailor our solutions to meet your specific needs.
+            At <strong>Geek Online LLC</strong>, we specialize in device and system optimization, ensuring your systems run at peak performance. Our expert team uses proven system optimization techniques to enhance efficiency, speed, and overall reliability. Whether you need to optimize device performance or boost system performance across multiple devices, we tailor our solutions to meet your specific needs.
           </p>
         </div>
         <div className="w-full aspect-[4/3] bg-slate-200 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">

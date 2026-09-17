@@ -144,7 +144,7 @@ function Footer() {
         </div>
         -{/* Legal Info Row */}
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 mt-8 pt-6 border-t border-slate-200/40 text-[11px] text-slate-100 font-medium">
-          <p>© 2026 WEBMATIC SOLUTIONS LLC All Rights Reserved.</p>
+          <p>© 2026 GEEK ONLINE LLC All Rights Reserved.</p>
           <div className="flex gap-4">
             <a href="/Disclaimer" className="hover:text-emerald-300 transition">
               Disclaimer

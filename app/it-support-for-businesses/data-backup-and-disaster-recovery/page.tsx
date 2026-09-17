@@ -63,7 +63,7 @@ export default function DataBackupAndDisasterRecovery() {
 
           <p className="text-slate-600 leading-relaxed">
             Data loss can be devastating, but with{" "}
-            <strong>Webmatic Solutions LLC</strong>, you never have to worry. We
+            <strong>Geek Online LLC</strong>, you never have to worry. We
             specialize in reliable data backup and disaster recovery solutions
             that protect your business’s vital information. Our services include
             tailored data storage, robust backup systems, and swift recovery

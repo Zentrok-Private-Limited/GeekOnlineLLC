@@ -64,7 +64,7 @@ export default function CybersecuritySolutions() {
           <p className="text-slate-600 leading-relaxed">
             Cyber threats are constantly evolving, and protecting your business
             from them requires the right solutions. At{" "}
-            <strong>Webmatic Solutions LLC</strong>, we provide comprehensive
+            <strong>Geek Online LLC</strong>, we provide comprehensive
             cybersecurity solutions that help safeguard your data, networks, and
             assets. From threat prevention to compliance, we tailor our
             services to meet the unique needs of your business, ensuring robust

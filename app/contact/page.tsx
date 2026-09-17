@@ -44,7 +44,7 @@ export default function ContactUsPage() {
           <div className="space-y-4">
             <h2 className="text-3xl md:text-4xl font-black text-slate-900 tracking-tight">Contact Us</h2>
             <h3 className="text-lg font-bold text-slate-800">
-              Get in Touch with <span className="text-emerald-600">Webmatic Solutions LLC </span> We Value Your Connection
+              Get in Touch with <span className="text-emerald-600">Geek Online LLC </span> We Value Your Connection
             </h3>
             <p className="text-slate-500 text-sm md:text-base leading-relaxed max-w-xl">
               Our dedicated team is committed to providing prompt and effective support to ensure your needs are met. We believe in open communication and are always ready to listen. Reach out to us via phone, email, or live chat, or visit our office during business hours.
@@ -60,7 +60,7 @@ export default function ContactUsPage() {
               </div>
               <div>
                 <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">Email Address</span>
-                <span className="text-lg font-extrabold text-slate-900 group-hover:text-emerald-600 transition">billing@webmaticsolutionsllc.com</span>
+                <span className="text-lg font-extrabold text-slate-900 group-hover:text-emerald-600 transition">billing@geekonlinellc.com</span>
               </div>
             </div>
 

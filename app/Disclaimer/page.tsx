@@ -117,11 +117,11 @@ export default function Disclaimer() {
               If you have any questions regarding this Disclaimer, please contact us at:
             </p>
             <div className="mt-4 bg-slate-50 p-4 rounded-xl border border-slate-100 text-slate-700">
-              <p className="font-semibold text-slate-900">Webmatic Solutions LLC</p>
+              <p className="font-semibold text-slate-900">Geek Online LLC</p>
               <p>212 N. 2nd St. STE 100,</p>
               <p>Richmond, KY 40475</p>
               <p className="mt-2">
-                Email: <a href="mailto:billing@webmaticsolutionsllc.com" className="text-emerald-600 underline">billing@webmaticsolutionsllc.com</a>
+                Email: <a href="mailto:billing@geekonlinellc.com" className="text-emerald-600 underline">billing@geekonlinellc.com</a>
               </p>
             </div>
           </div>

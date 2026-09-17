@@ -55,7 +55,7 @@ export default function WebsiteDesignDevelopment() {
             In the digital age, a website is more than just an online
             presence—it’s the foundation of your brand’s identity, customer
             engagement, and business growth. At{" "}
-            <strong>Webmatic Solutions LLC</strong>, In the digital age, a
+            <strong>Geek Online LLC</strong>, In the digital age, a
             website is more than just an online presence—it’s the foundation of
             your brand’s identity, customer engagement, and business growth.
           </p>
@@ -76,7 +76,7 @@ export default function WebsiteDesignDevelopment() {
             development services that evolve with your business.
           </p>
           <p>
-            At Webmatic Solutions LLC, we don’t just build websites—we create
+            At Geek Online LLC, we don’t just build websites—we create
             digital experiences that elevate brands, engage audiences, and drive
             sustainable growth. Let’s bring your vision to life with
             cutting-edge web design and development solutions.

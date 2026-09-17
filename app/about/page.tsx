@@ -62,17 +62,17 @@ export default function AboutPage() {
         {/* Right Column: Copy text */}
         <div className="lg:col-span-7 space-y-6">
           <h2 className="text-3xl lg:text-4xl font-black text-slate-900 tracking-tight">
-            Webmatic Solutions LLC
+            Geek Online LLC
           </h2>
           <p className="text-emerald-600 font-bold text-sm uppercase tracking-wider">
             Company Profile
           </p>
           <div className="space-y-4 text-slate-600 text-sm md:text-base leading-relaxed">
             <p>
-              <strong className="text-slate-900 font-bold">Webmatic Solutions LLC</strong> was founded in 2026 with a clear vision to be a leader in delivering perfect, professional, and responsible technology solutions. We aim to provide exceptional services that evolve with the needs of our clients, enabling them to stay ahead in the rapidly changing tech landscape. Our commitment is to offer innovative and transformational tech services that go beyond the ordinary, ensuring the highest level of customer satisfaction.
+              <strong className="text-slate-900 font-bold">Geek Online LLC</strong> was founded in 2026 with a clear vision to be a leader in delivering perfect, professional, and responsible technology solutions. We aim to provide exceptional services that evolve with the needs of our clients, enabling them to stay ahead in the rapidly changing tech landscape. Our commitment is to offer innovative and transformational tech services that go beyond the ordinary, ensuring the highest level of customer satisfaction.
             </p>
             <p>
-              With a dedicated focus on both individuals and businesses, Webmatic Solutions LLC strives to provide round-the-clock support, ensuring that clients can rely on us 24 hours a day, 7 days a week, and 365 days a year. Whether it&apos;s troubleshooting software issues, setting up secure networks, or addressing complex cybersecurity challenges, we are here to deliver comprehensive and timely solutions. Our mission is simple: keep systems running smoothly, minimize downtime, and maximize efficiency, allowing clients to focus on what matters most—growing their businesses and achieving their goals.
+              With a dedicated focus on both individuals and businesses, Geek Online LLC strives to provide round-the-clock support, ensuring that clients can rely on us 24 hours a day, 7 days a week, and 365 days a year. Whether it&apos;s troubleshooting software issues, setting up secure networks, or addressing complex cybersecurity challenges, we are here to deliver comprehensive and timely solutions. Our mission is simple: keep systems running smoothly, minimize downtime, and maximize efficiency, allowing clients to focus on what matters most—growing their businesses and achieving their goals.
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function AboutPage() {
           <div className="space-y-4">
             <h2 className="text-3xl font-black text-slate-900">Our Vision</h2>
             <p className="text-slate-600 text-sm md:text-base leading-relaxed">
-              Our vision at <strong className="text-slate-900 font-semibold">Webmatic Solutions LLC </strong> is to set the benchmark for perfection, professionalism, and responsibility in the technology services industry. We aspire to build strong, lasting relationships with our clients by providing consistently exceptional service. By staying at the forefront of technological advancements, we aim to deliver innovative solutions that anticipate and meet our clients&apos; future needs. We believe in providing a seamless experience, ensuring that every interaction with our team leaves a positive and lasting impact.
+              Our vision at <strong className="text-slate-900 font-semibold">Geek Online LLC </strong> is to set the benchmark for perfection, professionalism, and responsibility in the technology services industry. We aspire to build strong, lasting relationships with our clients by providing consistently exceptional service. By staying at the forefront of technological advancements, we aim to deliver innovative solutions that anticipate and meet our clients&apos; future needs. We believe in providing a seamless experience, ensuring that every interaction with our team leaves a positive and lasting impact.
             </p>
           </div>
 
@@ -238,12 +238,12 @@ export default function AboutPage() {
           <div className="space-y-6">
             <div>
               <h2 className="text-3xl font-bold text-slate-900 tracking-tight">Our Commitment to Innovation</h2>
-              <p className="text-slate-800 font-semibold mt-1">Webmatic Solutions LLC </p>
+              <p className="text-slate-800 font-semibold mt-1">Geek Online LLC </p>
             </div>
 
             <div className="space-y-4 text-slate-600 text-sm md:text-base leading-relaxed">
               <p>
-                At <strong className="text-slate-900 font-semibold">Webmatic Solutions LLC </strong>, innovation is the foundation of everything we do. We believe that technology should not only solve present-day challenges but also anticipate future needs. Our commitment to continuous improvement drives us to explore new possibilities, enhance digital solutions, and adopt cutting-edge technologies. Whether it&apos;s AI-powered automation, advanced cybersecurity protocols, or cloud computing advancements, we constantly evolve to offer our clients the best-in-class IT solutions. By investing in research, development, and industry collaborations, we ensure that our services remain at the forefront of the digital revolution.
+                At <strong className="text-slate-900 font-semibold">Geek Online LLC </strong>, innovation is the foundation of everything we do. We believe that technology should not only solve present-day challenges but also anticipate future needs. Our commitment to continuous improvement drives us to explore new possibilities, enhance digital solutions, and adopt cutting-edge technologies. Whether it&apos;s AI-powered automation, advanced cybersecurity protocols, or cloud computing advancements, we constantly evolve to offer our clients the best-in-class IT solutions. By investing in research, development, and industry collaborations, we ensure that our services remain at the forefront of the digital revolution.
               </p>
               <p>
                 To stay ahead in an ever-changing technological landscape, we embrace a culture of adaptability and learning. Our team of experts continuously refines methodologies, optimizes processes, and integrates emerging technologies to deliver efficient, scalable, and future-proof solutions. From enterprise IT infrastructure to custom software development, we ensure that businesses thrive in a digitally connected world. As part of ourNormally I can help with things like this, but I don't seem to have access to that content. You can try again or ask me for something else.

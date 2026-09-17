@@ -152,7 +152,7 @@ function Header() {
         <a href="/" className="flex items-center gap-2">
           <img
             src="/logo1.png"
-            alt="Webmatic Solutions Logo"
+            alt="Geek Online Logo"
             className="h-15 w-auto object-contain"
           />
         </a>

@@ -22,20 +22,20 @@ export default function TermsAndConditions() {
           {/* Header Note */}
           <div>
             <h2 className="text-2xl font-bold text-slate-900 mb-2">Terms and Conditions</h2>
-            <p className="text-sm font-semibold text-slate-500 italic mb-6">What they think about Webmatic Solutions LLC</p>
+            <p className="text-sm font-semibold text-slate-500 italic mb-6">What they think about Geek Online LLC</p>
             
             <h3 className="text-xl font-bold text-slate-900 mb-3">AGREEMENT TO OUR LEGAL TERMS</h3>
             <p>
-              We are Webmatic Solutions LLC ("Company," "we," "us," "our"), a company registered in 212 N. 2nd St. STE 100, Richmond, KY 40475.
+              We are Geek Online LLC ("Company," "we," "us," "our"), a company registered in 212 N. 2nd St. STE 100, Richmond, KY 40475.
             </p>
             <p className="mt-4">
-              We operate the website <a href="https://www.webmaticsolutionsllc.com" className="text-emerald-600 underline">https://www.webmaticsolutionsllc.com</a> (the "Site"), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").
+              We operate the website <a href="https://www.geekonlinellc.com" className="text-emerald-600 underline">https://www.geekonlinellc.com</a> (the "Site"), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").
             </p>
             <p className="mt-4">
-              You can contact us by email at billing@webmaticsolutionsllc.com or by mail to 212 N. 2nd St. STE 100, Richmond, KY 40475.
+              You can contact us by email at billing@geekonlinellc.com or by mail to 212 N. 2nd St. STE 100, Richmond, KY 40475.
             </p>
             <p className="mt-4">
-              These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and Webmatic Solutions LLC, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. <strong>IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</strong>
+              These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and Geek Online LLC, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. <strong>IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</strong>
             </p>
             <p className="mt-4">
               Supplemental terms and conditions or documents that may be posted on the Services from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Legal Terms at any time and for any reason. We will alert you about any changes by updating the "Last updated" date of these Legal Terms, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Legal Terms to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Legal Terms by your continued use of the Services after the date such revised Legal Terms are posted.
@@ -85,7 +85,7 @@ export default function TermsAndConditions() {
               Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.
             </p>
             <p className="mt-4">
-              If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: billing@webmaticsolutionsllc.com. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.
+              If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: billing@geekonlinellc.com. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.
             </p>
             <p className="mt-4">
               We reserve all rights not expressly granted to you in and to the Services, Content, and Marks.
@@ -200,7 +200,7 @@ export default function TermsAndConditions() {
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">8. PRIVACY POLICY</h3>
             <p>
-              We care about data privacy and security. Please review our Privacy Policy: <a href="https://www.webmaticsolutionsllc.com/PrivacyPolicy" className="text-emerald-600 underline">https://www.webmaticsolutionsllc.com/PrivacyPolicy</a>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in the United States. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States, then through your continued use of the Services, you are transferring your data to the United States, and you expressly consent to have your data transferred to and processed in the United States.
+              We care about data privacy and security. Please review our Privacy Policy: <a href="https://www.geekonlinellc.com/PrivacyPolicy" className="text-emerald-600 underline">https://www.geekonlinellc.com/PrivacyPolicy</a>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in the United States. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States, then through your continued use of the Services, you are transferring your data to the United States, and you expressly consent to have your data transferred to and processed in the United States.
             </p>
           </div>
 
@@ -348,11 +348,11 @@ export default function TermsAndConditions() {
               In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:
             </p>
             <div className="mt-4 bg-slate-50 p-4 rounded-xl border border-slate-100 text-slate-700">
-              <p className="font-semibold text-slate-900">Webmatic Solutions LLC</p>
+              <p className="font-semibold text-slate-900">Geek Online LLC</p>
               <p>212 N. 2nd St. STE 100,</p>
               <p> Richmond, KY 40475</p>
               <p className="mt-2">
-                Email: <a href="mailto:billing@webmaticsolutionsllc.com" className="text-emerald-600 underline">billing@webmaticsolutionsllc.com</a>
+                Email: <a href="mailto:billing@geekonlinellc.com" className="text-emerald-600 underline">billing@geekonlinellc.com</a>
               </p>
             </div>
           </div>

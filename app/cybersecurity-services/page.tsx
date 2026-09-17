@@ -54,7 +54,7 @@ export default function CybersecurityServices() {
           <p>
             In today’s digital-first world, cyber threats are constantly
             evolving, making proactive cybersecurity strategies more critical
-            than ever. At <strong>Webmatic Solutions LLC</strong>, we provide
+            than ever. At <strong>Geek Online LLC</strong>, we provide
             comprehensive cybersecurity services designed to safeguard digital
             assets, systems, and sensitive data against unauthorized access,
             breaches, and emerging cyber risks. Our approach integrates advanced
@@ -79,7 +79,7 @@ export default function CybersecurityServices() {
             robust and resilient defense against cyber risks.
           </p>
           <p>
-            At Webmatic Solutions LLC, we do not just protect businesses—we
+            At Geek Online LLC, we do not just protect businesses—we
             empower them with secure, future-ready cybersecurity solutions,
             ensuring uninterrupted operations and peace of mind in an
             ever-evolving threat landscape.
@@ -108,17 +108,17 @@ export default function CybersecurityServices() {
           />
           <ServiceCard
             title="Firewall Setup and Management"
-            desc="Webmatic Solutions LLC provides expert Firewall Set-Up & Management services, ensuring robust protection against unauthorized access and cyber threats to keep your network secure."
+            desc="Geek Online LLC provides expert Firewall Set-Up & Management services, ensuring robust protection against unauthorized access and cyber threats to keep your network secure."
             icon="🔥"
           />
           <ServiceCard
             title="Incident Response and Management"
-            desc="Webmatic Solutions LLC provides swift, expert Incident Response and Management services to contain threats, minimize damage, and ensure rapid recovery from cyber-attacks."
+            desc="Geek Online LLC provides swift, expert Incident Response and Management services to contain threats, minimize damage, and ensure rapid recovery from cyber-attacks."
             icon="🔒"
           />
           <ServiceCard
             title="Compliance Consulting"
-            desc="Webmatic Solutions LLC provides expert Compliance Consulting, ensuring your business meets regulatory standards with tailored, risk-reducing solutions."
+            desc="Geek Online LLC provides expert Compliance Consulting, ensuring your business meets regulatory standards with tailored, risk-reducing solutions."
             icon="📋"
           />
         </div>

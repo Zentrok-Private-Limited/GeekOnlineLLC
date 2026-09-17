@@ -53,7 +53,7 @@ export default function ConsultancyandAdvisoryServices() {
         </h2>
         <div className="space-y-6 text-slate-600 leading-relaxed">
           <p>
-            At <strong>Webmatic Solutions LLC</strong>, we believe that the
+            At <strong>Geek Online LLC</strong>, we believe that the
             right technology strategy is the key to business growth. However,
             with rapidly evolving digital landscapes, choosing the best IT
             solutions can be overwhelming. Our IT consulting and advisory
@@ -79,7 +79,7 @@ export default function ConsultancyandAdvisoryServices() {
             a technology-driven world.
           </p>
           <p>
-            At Webmatic Solutions LLC, we don’t just provide recommendations—we
+            At Geek Online LLC, we don’t just provide recommendations—we
             work as your trusted technology partner, ensuring that every IT
             decision you make is strategic, impactful, and aligned with
             long-term success.

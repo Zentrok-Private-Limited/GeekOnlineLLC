@@ -74,7 +74,7 @@ export default function CloudServicesAndVirtualization() {
             your unique requirements. Leverage the full potential of
             cloud-based virtual networks and systems for streamlined operations
             and peace of mind. Experience the future of business continuity with
-            Webmatic Solutions LLC cloud services and virtualization.
+            Geek Online LLC cloud services and virtualization.
           </p>
         </div>
 

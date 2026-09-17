@@ -38,7 +38,7 @@ export default function NetworkSetup() {
             Ensure seamless connectivity and reliable performance with our expert network setup and maintenance services, offering comprehensive IT network support and proactive IT maintenance for your business.
           </p>
           <p className="text-slate-600 leading-relaxed">
-            At <strong>Webmatic Solutions LLC</strong>, we understand that a reliable, secure network is the backbone of your business. Our team works hand-in-hand with you to create a network that not only meets your needs but keeps running smoothly day in and day out.
+            At <strong>Geek Online LLC</strong>, we understand that a reliable, secure network is the backbone of your business. Our team works hand-in-hand with you to create a network that not only meets your needs but keeps running smoothly day in and day out.
           </p>
         </div>
         <div className="w-full aspect-[4/3] bg-slate-200 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">

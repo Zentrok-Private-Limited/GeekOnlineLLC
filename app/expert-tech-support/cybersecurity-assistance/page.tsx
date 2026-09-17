@@ -38,7 +38,7 @@ export default function CybersecurityAssistance() {
             Get expert cybersecurity assistance with tailored support, training, and guidance to protect your business. From help desk services to cybersecurity frameworks, we ensure your security is always top-notch.
           </p>
           <p className="text-slate-600 leading-relaxed">
-            At <strong>Webmatic Solutions LLC</strong>, we offer comprehensive cybersecurity assistance to help safeguard your business from evolving threats. Whether you need help desk cybersecurity support, guidance on best practices, or a structured cybersecurity framework, our expert team is here for you. We provide tailored cybersecurity assistance programs and training to empower your team with the knowledge to stay secure.
+            At <strong>Geek Online LLC</strong>, we offer comprehensive cybersecurity assistance to help safeguard your business from evolving threats. Whether you need help desk cybersecurity support, guidance on best practices, or a structured cybersecurity framework, our expert team is here for you. We provide tailored cybersecurity assistance programs and training to empower your team with the knowledge to stay secure.
           </p>
         </div>
         <div className="w-full aspect-[4/3] bg-slate-200 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">

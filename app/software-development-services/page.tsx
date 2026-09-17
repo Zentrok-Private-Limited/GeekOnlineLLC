@@ -54,7 +54,7 @@ export default function SoftwareDevelopmentServices() {
         </h2>
         <div className="space-y-6 text-slate-600 leading-relaxed">
           <p>
-            At <strong>Webmatic Solutions LLC</strong>, we specialize in
+            At <strong>Geek Online LLC</strong>, we specialize in
             developing custom, high-performance software solutions that empower
             businesses to stay agile, efficient, and competitive in a rapidly
             evolving digital landscape. Whether you need mobile applications,
@@ -81,7 +81,7 @@ export default function SoftwareDevelopmentServices() {
             productivity, and drive digital transformation.
           </p>
           <p>
-            At Webmatic Solutions LLC, we do not just develop software—we create
+            At Geek Online LLC, we do not just develop software—we create
             powerful digital solutions that drive business growth, efficiency,
             and long-term success.
           </p>

@@ -22,18 +22,18 @@ export default function PrivacyPolicy() {
           {/* Header Note */}
           <div>
             <h2 className="text-2xl font-bold text-slate-900 mb-2">Privacy Policy</h2>
-            <p className="text-sm font-semibold text-slate-500 italic mb-6">What they think about Webmatic Solutions LLC</p>
+            <p className="text-sm font-semibold text-slate-500 italic mb-6">What they think about Geek Online LLC</p>
             
             <h3 className="text-xl font-bold text-slate-900 mb-3">PRIVACY NOTICE</h3>
             <p>
-              This Privacy Notice for Webmatic Solutions LLC ("we," "us," or "our") describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services"), including when you:
+              This Privacy Notice for Geek Online LLC ("we," "us," or "our") describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services"), including when you:
             </p>
             <ul className="list-disc pl-5 mt-2 space-y-2">
-              <li>Visit our website at https://www.webmaticsolutionsllc.com, or any website of ours that links to this Privacy Notice</li>
+              <li>Visit our website at https://www.geekonlinellc.com, or any website of ours that links to this Privacy Notice</li>
               <li>Engage with us in other related ways, including any sales, marketing, or events</li>
             </ul>
             <p className="mt-4">
-              Questions or concerns? Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at billing@webmaticsolutionsllc.com.
+              Questions or concerns? Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at billing@geekonlinellc.com.
             </p>
             
             <div className="mt-8 p-6 bg-slate-50 rounded-xl border border-slate-100">
@@ -186,7 +186,7 @@ export default function PrivacyPolicy() {
             <h3 className="text-xl font-bold text-slate-900 mb-3">8. WHAT ARE YOUR PRIVACY RIGHTS?</h3>
             <p className="text-sm text-emerald-600 font-medium mb-2">In Short: Depending on your state of residence in the US or in some regions, such as Canada, you have rights that allow you greater access to and control over your personal information.</p>
             <p>
-              In some regions (like Canada), you have certain rights under applicable data protection laws, including the right to request access, rectification, erasure, restriction of processing, and data portability. You may withdraw your consent at any time by contacting us at billing@webmaticsolutionsllc.com.
+              In some regions (like Canada), you have certain rights under applicable data protection laws, including the right to request access, rectification, erasure, restriction of processing, and data portability. You may withdraw your consent at any time by contacting us at billing@geekonlinellc.com.
             </p>
           </div>
 
@@ -207,7 +207,7 @@ export default function PrivacyPolicy() {
             <h3 className="text-xl font-bold text-slate-900 mb-3">10. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h3>
             <p className="text-sm text-emerald-600 font-medium mb-2">In Short: If you are a resident of certain US states, you may have the right to request access to and receive details about the personal information we maintain about you and how we have processed it.</p>
             <p>
-              We have not disclosed, sold, or shared any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. You have rights under certain US state data protection laws to know, access, correct, delete, or obtain a copy of your personal data. To exercise these rights, contact us at billing@webmaticsolutionsllc.com.
+              We have not disclosed, sold, or shared any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. You have rights under certain US state data protection laws to know, access, correct, delete, or obtain a copy of your personal data. To exercise these rights, contact us at billing@geekonlinellc.com.
             </p>
           </div>
 
@@ -228,14 +228,14 @@ export default function PrivacyPolicy() {
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h3>
             <p>
-              If you have questions or comments about this notice, you may email us at billing@webmaticsolutionsllc.com or contact us by post at:
+              If you have questions or comments about this notice, you may email us at billing@geekonlinellc.com or contact us by post at:
             </p>
             <div className="mt-4 bg-slate-50 p-4 rounded-xl border border-slate-100 text-slate-700">
-              <p className="font-semibold text-slate-900">Webmatic Solutions LLC</p>
+              <p className="font-semibold text-slate-900">Geek Online LLC</p>
               <p>212 N. 2nd St. STE 100,</p>
               <p>Richmond, KY 40475</p>
               <p className="mt-2">
-                Email: <a href="mailto:billing@webmaticsolutionsllc.com" className="text-emerald-600 underline">billing@webmaticsolutionsllc.com</a>
+                Email: <a href="mailto:billing@geekonlinellc.com" className="text-emerald-600 underline">billing@geekonlinellc.com</a>
               </p>
             </div>
           </div>
