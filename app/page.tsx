@@ -35,12 +35,12 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 font-sans antialiased">
       {/* ================= HERO SECTION 1 ================= */}
-      <section className="relative bg-gradient-to-b from-emerald-50/40 via-white to-transparent px-6 py-16 md:py-16 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <section className="relative bg-gradient-to-b from-amber-50/40 via-white to-transparent px-6 py-16 md:py-16 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <p className="text-xl md:text-2xl lg:text-3xl font-black text-slate-900 leading-tight">
             A one-stop solution for <br />
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl bg-clip-text font-black text-transparent bg-gradient-to-r from-emerald-600 to-teal-600">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl bg-clip-text font-black text-transparent bg-gradient-to-r from-amber-600 to-amber-400">
             IT Services, Support, and Consulting
           </h2>
           <p className="text-slate-600 text-base md:text-lg leading-relaxed max-w-xl">
@@ -68,7 +68,7 @@ export default function LandingPage() {
           </div>
 
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="bg-gradient-to-r from-emerald-600 to-teal-700 text-white font-medium px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5">
+            <button className="bg-gradient-to-r from-amber-600 to-amber-700 text-white font-medium px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5">
               Let&apos;s Talk
             </button>
             <button className="border border-slate-300 text-slate-700 font-medium px-6 py-3 rounded-lg hover:bg-slate-50 transition">
@@ -79,12 +79,12 @@ export default function LandingPage() {
 
         <div className="relative justify-self-center lg:justify-self-end">
           {/* The decorative background shadow */}
-          <div className="absolute inset-0 bg-emerald-600/10 rounded-2xl transform translate-x-3 translate-y-3 -z-10"></div>
+          <div className="absolute inset-0 bg-amber-600/10 rounded-2xl transform translate-x-3 translate-y-3 -z-10"></div>
 
           {/* Right Column: Image */}
           <div className="relative w-full max-w-lg mx-auto md:mx-0">
             {/* Decorative Background */}
-            <div className="absolute inset-0 bg-emerald-600/10 rounded-2xl rotate-3 scale-[1.02] -z-10"></div>
+            <div className="absolute inset-0 bg-amber-600/10 rounded-2xl rotate-3 scale-[1.02] -z-10"></div>
 
             {/* Image Container with Aspect Ratio */}
             <div className="relative w-full aspect-[4/3] rounded-2xl border-4 border-white shadow-2xl overflow-hidden">
@@ -99,17 +99,17 @@ export default function LandingPage() {
       </section>
 
       {/* ================= HERO SECTION 2 (Stats Banner) ================= */}
-      <section className="bg-gradient-to-r from-teal-900 to-emerald-950 text-white py-16 px-6">
+      <section className="bg-gradient-to-r from-amber-900 to-amber-950 text-white py-16 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <span className="text-xs uppercase font-bold tracking-widest text-emerald-300">
+            <span className="text-xs uppercase font-bold tracking-widest text-amber-300">
               Technology on Demand
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">
               Innovative Tech Solutions, IT Services, and Consulting - 24/7 IT
               Support for Seamless Operations.
             </h2>
-            <p className="text-emerald-100 text-sm md:text-base leading-relaxed opacity-90">
+            <p className="text-amber-100 text-sm md:text-base leading-relaxed opacity-90">
               We provide 24/7 support with experts in network configuration,
               cybersecurity, troubleshooting, and other areas. Our solutions are
               expertly designed to minimize downtime and maximize efficiency.
@@ -117,7 +117,7 @@ export default function LandingPage() {
 
             <div className="flex flex-wrap gap-4 pt-4">
               <div className="bg-white text-slate-900 rounded-xl p-6 shadow-md min-w-[140px] text-center flex-1">
-                <span className="block text-3xl font-black text-emerald-600">
+                <span className="block text-3xl font-black text-amber-600">
                   1M+
                 </span>
                 <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
@@ -125,7 +125,7 @@ export default function LandingPage() {
                 </span>
               </div>
               <div className="bg-white text-slate-900 rounded-xl p-6 shadow-md min-w-[140px] text-center flex-1">
-                <span className="block text-3xl font-black text-teal-600">
+                <span className="block text-3xl font-black text-amber-600">
                   50K+
                 </span>
                 <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
@@ -190,11 +190,11 @@ export default function LandingPage() {
               key={idx}
               className="bg-white border border-slate-100 rounded-xl p-6 shadow-sm hover:shadow-md transition flex gap-4 items-start group"
             >
-              <div className="p-3 bg-emerald-50 text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white rounded-lg transition duration-300 shrink-0">
+              <div className="p-3 bg-amber-50 text-amber-600 group-hover:bg-amber-600 group-hover:text-white rounded-lg transition duration-300 shrink-0">
                 {item.icon}
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 mb-2 group-hover:text-emerald-600 transition">
+                <h3 className="font-bold text-slate-900 mb-2 group-hover:text-amber-600 transition">
                   {item.title}
                 </h3>
                 <p className="text-xs text-slate-500 leading-relaxed">
@@ -209,7 +209,7 @@ export default function LandingPage() {
       {/* ================= SECTION 4: HOW WE SERVE ================= */}
       <section className="bg-slate-50 border-y border-slate-100 py-20 px-6">
         <div className="max-w-7xl mx-auto text-center space-y-4 mb-14">
-          <span className="text-sm font-bold text-emerald-600 uppercase tracking-widest">
+          <span className="text-sm font-bold text-amber-600 uppercase tracking-widest">
             How We Serve
           </span>
           <h2 className="text-3xl md:text-4xl font-black text-slate-900">
@@ -245,7 +245,7 @@ export default function LandingPage() {
               <div className="w-full h-40 bg-slate-100 rounded-xl flex items-center justify-center text-slate-400">
                 <img src={s.img} alt="" />
               </div>
-              <div className="inline-block px-3 py-1 bg-emerald-50 text-emerald-600 font-bold text-xs rounded-full">
+              <div className="inline-block px-3 py-1 bg-amber-50 text-amber-600 font-bold text-xs rounded-full">
                 Step {s.step}
               </div>
               <h3 className="font-bold text-lg text-slate-900">{s.title}</h3>
@@ -259,9 +259,9 @@ export default function LandingPage() {
 
       {/* ================= SECTION 5: IMMEDIATE ASSISTANCE CTA ================= */}
       <section className="max-w-5xl mx-auto px-6 py-16">
-        <div className="bg-gradient-to-r from-teal-900 to-emerald-950 border border-emerald-100 rounded-3xl p-8 md:p-12 grid md:grid-cols-2 gap-8 items-center relative overflow-hidden">
+        <div className="bg-gradient-to-r from-amber-900 to-amber-950 border border-amber-100 rounded-3xl p-8 md:p-12 grid md:grid-cols-2 gap-8 items-center relative overflow-hidden">
           <div className="space-y-4 z-10">
-            <h2 className="text-2xl md:text-3xl font-black text-emerald-50">
+            <h2 className="text-2xl md:text-3xl font-black text-amber-50">
               Need Immediate Assistance?
             </h2>
             <p className="text-sm text-slate-50 leading-relaxed">
@@ -269,7 +269,7 @@ export default function LandingPage() {
               a top support specialist. We&apos;ll keep you on track with
               everything from helpdesk to IT services and consulting.
             </p>
-            <button className="bg-gradient-to-r from-emerald-600 to-teal-700 text-white font-medium px-6 py-3 rounded-lg shadow-md inline-flex items-center gap-2">
+            <button className="bg-gradient-to-r from-amber-600 to-amber-700 text-white font-medium px-6 py-3 rounded-lg shadow-md inline-flex items-center gap-2">
               <FaRegMessage size={14} /> Let&apos;s Talk
             </button>
           </div>
@@ -278,7 +278,7 @@ export default function LandingPage() {
               <img src="/customer_support.jpg" alt="" />
             </div>
           </div>
-          <div className="absolute right-[-20px] bottom-[-20px] text-emerald-100 opacity-20 transform scale-[3] pointer-events-none">
+          <div className="absolute right-[-20px] bottom-[-20px] text-amber-100 opacity-20 transform scale-[3] pointer-events-none">
             <FaPhone size={120} />
           </div>
         </div>
@@ -290,7 +290,7 @@ export default function LandingPage() {
           <h2 className="text-3xl md:text-4xl font-black text-slate-900">
             Our Beaming Faces
           </h2>
-          <p className="text-emerald-600 font-medium text-sm">
+          <p className="text-amber-600 font-medium text-sm">
             What they think about Geek Online LLC
           </p>
         </div>
@@ -349,7 +349,7 @@ export default function LandingPage() {
       {/* ================= SECTION 7: FAQS ================= */}
       <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-5 gap-12 items-start">
         <div className="md:col-span-2 space-y-4">
-          <span className="text-sm font-bold text-emerald-600 uppercase tracking-widest">
+          <span className="text-sm font-bold text-amber-600 uppercase tracking-widest">
             FAQs
           </span>
           <h2 className="text-3xl font-black text-slate-900 leading-tight">
@@ -372,11 +372,11 @@ export default function LandingPage() {
             <div key={idx} className="py-4 first:pt-0 last:pb-0">
               <button
                 onClick={() => toggleFaq(idx)}
-                className="w-full flex items-center justify-between text-left font-semibold text-slate-800 hover:text-emerald-600 transition gap-4 text-sm md:text-base"
+                className="w-full flex items-center justify-between text-left font-semibold text-slate-800 hover:text-amber-600 transition gap-4 text-sm md:text-base"
               >
                 <span>{q}</span>
                 {openFaq === idx ? (
-                  <FaMinus size={14} className="text-emerald-600 shrink-0" />
+                  <FaMinus size={14} className="text-amber-600 shrink-0" />
                 ) : (
                   <FaPlus size={14} className="text-slate-400 shrink-0" />
                 )}

@@ -8,9 +8,9 @@ export default function Disclaimer() {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Disclaimer</h1>
           <div className="flex items-center text-sm text-slate-600 gap-2">
-            <a href="/" className="hover:text-emerald-600">Home</a>
+            <a href="/" className="hover:text-amber-600">Home</a>
             <span>&gt;</span>
-            <span className="text-emerald-600 font-semibold">Disclaimer</span>
+            <span className="text-amber-600 font-semibold">Disclaimer</span>
           </div>
         </div>
       </section>
@@ -32,13 +32,13 @@ export default function Disclaimer() {
             </div>
 
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">Quick Links</h4>
-            <div className="flex flex-wrap gap-2 text-sm text-emerald-600 font-medium">
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">General Disclaimer</span>
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Trademark Notice</span>
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">No Affiliation</span>
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Service Accuracy</span>
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Remote Consent</span>
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Responsibility</span>
+            <div className="flex flex-wrap gap-2 text-sm text-amber-600 font-medium">
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">General Disclaimer</span>
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">Trademark Notice</span>
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">No Affiliation</span>
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">Service Accuracy</span>
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">Remote Consent</span>
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">Responsibility</span>
             </div>
           </div>
 
@@ -121,7 +121,7 @@ export default function Disclaimer() {
               <p>212 N. 2nd St. STE 100,</p>
               <p>Richmond, KY 40475</p>
               <p className="mt-2">
-                Email: <a href="mailto:billing@geekonlinellc.com" className="text-emerald-600 underline">billing@geekonlinellc.com</a>
+                Email: <a href="mailto:billing@geekonlinellc.com" className="text-amber-600 underline">billing@geekonlinellc.com</a>
               </p>
             </div>
           </div>

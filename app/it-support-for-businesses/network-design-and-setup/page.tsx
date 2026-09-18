@@ -30,18 +30,18 @@ export default function NetworkDesignAndSetup() {
           </h1>
 
           <div className="flex items-center text-sm text-slate-600 gap-2">
-            <a href="/" className="hover:text-emerald-600">
+            <a href="/" className="hover:text-amber-600">
               Home
             </a>
             <span>&gt;</span>
             <a
               href="/it-support-for-businesses"
-              className="hover:text-emerald-600"
+              className="hover:text-amber-600"
             >
               IT Support for Businesses
             </a>
             <span>&gt;</span>
-            <span className="text-emerald-600 font-semibold">
+            <span className="text-amber-600 font-semibold">
               Network Design and Setup
             </span>
           </div>

@@ -18,11 +18,11 @@ export default function SoftwareTroubleshooting() {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Software Troubleshooting</h1>
           <div className="flex items-center text-sm text-slate-600 gap-2">
-            <a href="/" className="hover:text-emerald-600">Home</a>
+            <a href="/" className="hover:text-amber-600">Home</a>
             <span>&gt;</span>
-            <a href="/expert-tech-support" className="hover:text-emerald-600">Expert Tech Support</a>
+            <a href="/expert-tech-support" className="hover:text-amber-600">Expert Tech Support</a>
             <span>&gt;</span>
-            <span className="text-emerald-600 font-semibold">Software Troubleshooting</span>
+            <span className="text-amber-600 font-semibold">Software Troubleshooting</span>
           </div>
         </div>
       </section>

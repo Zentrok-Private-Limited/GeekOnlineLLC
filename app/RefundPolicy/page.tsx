@@ -8,9 +8,9 @@ export default function RefundAndReturnPolicy() {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Refund & Return Policy</h1>
           <div className="flex items-center text-sm text-slate-600 gap-2">
-            <a href="/" className="hover:text-emerald-600">Home</a>
+            <a href="/" className="hover:text-amber-600">Home</a>
             <span>&gt;</span>
-            <span className="text-emerald-600 font-semibold">Refund & Return Policy</span>
+            <span className="text-amber-600 font-semibold">Refund & Return Policy</span>
           </div>
         </div>
       </section>
@@ -32,13 +32,13 @@ export default function RefundAndReturnPolicy() {
             </div>
 
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">Policy Sections</h4>
-            <div className="flex flex-wrap gap-2 text-sm text-emerald-600 font-medium">
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Order Cancellation</span>
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Return & Replacement</span>
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Eligibility Criteria</span>
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Non-Returnable Items</span>
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Refund Timeline</span>
-              <span className="bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Shipping & Disputes</span>
+            <div className="flex flex-wrap gap-2 text-sm text-amber-600 font-medium">
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">Order Cancellation</span>
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">Return & Replacement</span>
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">Eligibility Criteria</span>
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">Non-Returnable Items</span>
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">Refund Timeline</span>
+              <span className="bg-amber-50 px-3 py-1 rounded-full border border-amber-100">Shipping & Disputes</span>
             </div>
           </div>
 
@@ -185,7 +185,7 @@ export default function RefundAndReturnPolicy() {
             <div className="mb-6">
               <a 
                 href="#return-request" 
-                className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow-sm"
+                className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow-sm"
               >
                 Initiate Return Request
               </a>
@@ -199,7 +199,7 @@ export default function RefundAndReturnPolicy() {
                 Email:
               </p>
               <ul className="list-disc pl-5 text-sm mt-1">
-                <li><a href="mailto:billing@geekonlinellc.com" className="text-emerald-600 underline">billing@geekonlinellc.com</a></li>
+                <li><a href="mailto:billing@geekonlinellc.com" className="text-amber-600 underline">billing@geekonlinellc.com</a></li>
               </ul>
             </div>
           </div>
