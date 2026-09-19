@@ -8,9 +8,9 @@ export default function PrivacyPolicy() {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Privacy Policy</h1>
           <div className="flex items-center text-sm text-slate-600 gap-2">
-            <a href="/" className="hover:text-amber-600">Home</a>
+            <a href="/" className="hover:text-blue-600">Home</a>
             <span>&gt;</span>
-            <span className="text-amber-600 font-semibold">Privacy Policy</span>
+            <span className="text-blue-600 font-semibold">Privacy Policy</span>
           </div>
         </div>
       </section>
@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
           {/* Table of Contents */}
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">TABLE OF CONTENTS</h3>
-            <ol className="list-decimal pl-5 space-y-1 text-amber-600 font-medium">
+            <ol className="list-decimal pl-5 space-y-1 text-blue-600 font-medium">
               <li>WHAT INFORMATION DO WE COLLECT?</li>
               <li>HOW DO WE PROCESS YOUR INFORMATION?</li>
               <li>WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?</li>
@@ -82,7 +82,7 @@ export default function PrivacyPolicy() {
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">1. WHAT INFORMATION DO WE COLLECT?</h3>
             <p className="font-semibold text-slate-800">Personal information you disclose to us</p>
-            <p className="text-sm text-amber-600 font-medium mt-1">In Short: We collect personal information that you provide to us.</p>
+            <p className="text-sm text-blue-600 font-medium mt-1">In Short: We collect personal information that you provide to us.</p>
             <p className="mt-2">
               We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.
             </p>
@@ -99,7 +99,7 @@ export default function PrivacyPolicy() {
           {/* Section 2 */}
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">2. HOW DO WE PROCESS YOUR INFORMATION?</h3>
-            <p className="text-sm text-amber-600 font-medium mb-2">In Short: We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.</p>
+            <p className="text-sm text-blue-600 font-medium mb-2">In Short: We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.</p>
             <p>
               We process your personal information for a variety of reasons, depending on how you interact with our Services.
             </p>
@@ -110,7 +110,7 @@ export default function PrivacyPolicy() {
           {/* Section 3 */}
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?</h3>
-            <p className="text-sm text-amber-600 font-medium mb-2">In Short: We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests.</p>
+            <p className="text-sm text-blue-600 font-medium mb-2">In Short: We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests.</p>
             <p>
               If you are located in Canada, this section applies to you. We may process your information if you have given us specific permission (i.e., express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e., implied consent). You can withdraw your consent at any time.
             </p>
@@ -137,7 +137,7 @@ export default function PrivacyPolicy() {
           {/* Section 4 */}
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</h3>
-            <p className="text-sm text-amber-600 font-medium mb-2">In Short: We may share information in specific situations described in this section and/or with the following third parties.</p>
+            <p className="text-sm text-blue-600 font-medium mb-2">In Short: We may share information in specific situations described in this section and/or with the following third parties.</p>
             <p>
               We may need to share your personal information in the following situations:
             </p>
@@ -151,7 +151,7 @@ export default function PrivacyPolicy() {
           {/* Section 5 */}
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">5. HOW LONG DO WE KEEP YOUR INFORMATION?</h3>
-            <p className="text-sm text-amber-600 font-medium mb-2">In Short: We keep your information for as long as necessary to fulfill the purposes outlined in this Privacy Notice unless otherwise required by law.</p>
+            <p className="text-sm text-blue-600 font-medium mb-2">In Short: We keep your information for as long as necessary to fulfill the purposes outlined in this Privacy Notice unless otherwise required by law.</p>
             <p>
               We will only keep your personal information for as long as it is necessary for the purposes set out in this Privacy Notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information.
             </p>
@@ -162,7 +162,7 @@ export default function PrivacyPolicy() {
           {/* Section 6 */}
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">6. HOW DO WE KEEP YOUR INFORMATION SAFE?</h3>
-            <p className="text-sm text-amber-600 font-medium mb-2">In Short: We aim to protect your personal information through a system of organizational and technical security measures.</p>
+            <p className="text-sm text-blue-600 font-medium mb-2">In Short: We aim to protect your personal information through a system of organizational and technical security measures.</p>
             <p>
               We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure.
             </p>
@@ -173,7 +173,7 @@ export default function PrivacyPolicy() {
           {/* Section 7 */}
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">7. DO WE COLLECT INFORMATION FROM MINORS?</h3>
-            <p className="text-sm text-amber-600 font-medium mb-2">In Short: We do not knowingly collect data from or market to children under 18 years of age.</p>
+            <p className="text-sm text-blue-600 font-medium mb-2">In Short: We do not knowingly collect data from or market to children under 18 years of age.</p>
             <p>
               We do not knowingly collect, solicit data from, or market to children under 18 years of age, nor do we knowingly sell such personal information. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records.
             </p>
@@ -184,7 +184,7 @@ export default function PrivacyPolicy() {
           {/* Section 8 */}
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">8. WHAT ARE YOUR PRIVACY RIGHTS?</h3>
-            <p className="text-sm text-amber-600 font-medium mb-2">In Short: Depending on your state of residence in the US or in some regions, such as Canada, you have rights that allow you greater access to and control over your personal information.</p>
+            <p className="text-sm text-blue-600 font-medium mb-2">In Short: Depending on your state of residence in the US or in some regions, such as Canada, you have rights that allow you greater access to and control over your personal information.</p>
             <p>
               In some regions (like Canada), you have certain rights under applicable data protection laws, including the right to request access, rectification, erasure, restriction of processing, and data portability. You may withdraw your consent at any time by contacting us at billing@geekonlinellc.com.
             </p>
@@ -205,7 +205,7 @@ export default function PrivacyPolicy() {
           {/* Section 10 */}
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">10. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h3>
-            <p className="text-sm text-amber-600 font-medium mb-2">In Short: If you are a resident of certain US states, you may have the right to request access to and receive details about the personal information we maintain about you and how we have processed it.</p>
+            <p className="text-sm text-blue-600 font-medium mb-2">In Short: If you are a resident of certain US states, you may have the right to request access to and receive details about the personal information we maintain about you and how we have processed it.</p>
             <p>
               We have not disclosed, sold, or shared any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. You have rights under certain US state data protection laws to know, access, correct, delete, or obtain a copy of your personal data. To exercise these rights, contact us at billing@geekonlinellc.com.
             </p>
@@ -216,7 +216,7 @@ export default function PrivacyPolicy() {
           {/* Section 11 */}
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">11. DO WE MAKE UPDATES TO THIS NOTICE?</h3>
-            <p className="text-sm text-amber-600 font-medium mb-2">In Short: Yes, we will update this notice as necessary to stay compliant with relevant laws.</p>
+            <p className="text-sm text-blue-600 font-medium mb-2">In Short: Yes, we will update this notice as necessary to stay compliant with relevant laws.</p>
             <p>
               We may update this Privacy Notice from time to time. The updated version will be indicated by an updated "Revised" date at the top of this Privacy Notice.
             </p>
@@ -235,7 +235,7 @@ export default function PrivacyPolicy() {
               <p>212 N. 2nd St. STE 100,</p>
               <p>Richmond, KY 40475</p>
               <p className="mt-2">
-                Email: <a href="mailto:billing@geekonlinellc.com" className="text-amber-600 underline">billing@geekonlinellc.com</a>
+                Email: <a href="mailto:billing@geekonlinellc.com" className="text-blue-600 underline">billing@geekonlinellc.com</a>
               </p>
             </div>
           </div>

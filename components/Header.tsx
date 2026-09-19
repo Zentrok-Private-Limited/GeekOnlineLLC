@@ -12,7 +12,7 @@ type NavItem = {
 // Desktop Dropdown
 const NavDropdown = ({ title, items }: { title: string; items: NavItem[] }) => (
   <div className="relative group">
-    <button className="flex items-center gap-1 hover:text-amber-600 transition font-medium">
+    <button className="flex items-center gap-1 hover:text-blue-50 transition font-medium">
       {title}
       <FaChevronDown size={10} />
     </button>
@@ -22,7 +22,7 @@ const NavDropdown = ({ title, items }: { title: string; items: NavItem[] }) => (
         <div key={item.label} className="relative group/item">
           <a
             href={item.href || "#"}
-            className="flex items-center justify-between px-6 py-2.5 text-sm font-medium text-slate-700 hover:bg-amber-50 hover:text-amber-700 transition"
+            className="flex items-center justify-between px-6 py-2.5 text-sm font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition"
           >
             {item.label}
 
@@ -36,7 +36,7 @@ const NavDropdown = ({ title, items }: { title: string; items: NavItem[] }) => (
                 <a
                   key={child.label}
                   href={child.href}
-                  className="block px-6 py-2.5 text-sm font-medium text-slate-700 hover:bg-amber-50 hover:text-amber-700 transition"
+                  className="block px-6 py-2.5 text-sm font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition"
                 >
                   {child.label}
                 </a>
@@ -146,22 +146,22 @@ function Header() {
   const resources = [{ label: "FAQs", href: "/FAQ" }];
 
   return (
-    <div className="sticky top-0 z-50 w-full bg-amber-50 backdrop-blur-md border-b border-slate-100">
+    <div className="sticky top-0 z-50 w-full bg-blue-800 backdrop-blur-md border-b border-slate-100">
       <nav className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
           <img
-            src="/logo1.png"
+            src="/logo.png"
             alt="Geek Online Logo"
             className="h-15 w-auto object-contain"
           />
         </a>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-8 text-sm text-slate-600">
+        <div className="hidden md:flex items-center gap-8 text-sm text-slate-50">
           <a
             href="/about"
-            className="hover:text-amber-600 transition font-medium"
+            className="hover:text-blue-50 transition font-medium"
           >
             Who we are
           </a>
@@ -172,7 +172,7 @@ function Header() {
 
           <a
             href="/contact"
-            className="hover:text-amber-600 transition font-medium"
+            className="hover:text-blue-50 transition font-medium"
           >
             Contact Us
           </a>
@@ -216,7 +216,7 @@ function Header() {
                 <a
                   key={item.label}
                   href={item.href}
-                  className="block px-10 py-3 text-sm text-slate-600 hover:bg-amber-50 hover:text-amber-600"
+                  className="block px-10 py-3 text-sm text-slate-600 hover:bg-blue-50 hover:text-blue-600"
                 >
                   {item.label}
                 </a>
@@ -243,7 +243,7 @@ function Header() {
                 <a
                   key={item.label}
                   href={item.href}
-                  className="block px-10 py-3 text-sm text-slate-600 hover:bg-amber-50 hover:text-amber-600"
+                  className="block px-10 py-3 text-sm text-slate-600 hover:bg-blue-50 hover:text-blue-600"
                 >
                   {item.label}
                 </a>

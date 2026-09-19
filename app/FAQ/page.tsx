@@ -46,7 +46,7 @@ export default function FAQPage() {
 
       {/* Main Content */}
       <section className="max-w-6xl mx-auto py-16 px-6">
-        <h2 className="text-3xl font-bold text-center mb-2 text-amber-600">Top FAQs</h2>
+        <h2 className="text-3xl font-bold text-center mb-2 text-blue-600">Top FAQs</h2>
         <p className="text-center text-slate-600 mb-12">Get quick answers to common questions about Geek Online LLC's services, support, and processes.</p>
         
         <div className="grid md:grid-cols-2 gap-12">

@@ -19,11 +19,11 @@ export default function ManagedITServices() {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Managed IT Services</h1>
           <div className="flex items-center text-sm text-slate-600 gap-2">
-            <a href="/" className="hover:text-amber-600">Home</a>
+            <a href="/" className="hover:text-blue-600">Home</a>
             <span>&gt;</span>
-            <a href="/it-support-for-businesses" className="hover:text-amber-600">IT Support for Businesses</a>
+            <a href="/it-support-for-businesses" className="hover:text-blue-600">IT Support for Businesses</a>
             <span>&gt;</span>
-            <span className="text-amber-600 font-semibold">Managed IT Services</span>
+            <span className="text-blue-600 font-semibold">Managed IT Services</span>
           </div>
         </div>
       </section>

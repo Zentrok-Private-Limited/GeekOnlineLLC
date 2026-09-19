@@ -20,10 +20,10 @@ export default function AboutPage() {
       
       {/* ================= BREADCRUMB HEADER ================= */}
       <section className="px-6 py-12 max-w-7xl mx-auto">
-        <div className="bg-gradient-to-r from-amber-50/60 to-amber-50/40 rounded-3xl p-10 text-center border border-amber-100/40 shadow-sm">
+        <div className="bg-gradient-to-r from-blue-50/60 to-blue-50/40 rounded-3xl p-10 text-center border border-blue-100/40 shadow-sm">
           <h1 className="text-3xl md:text-4xl font-black text-slate-900 mb-2">About Us</h1>
           <div className="flex items-center justify-center gap-2 text-xs font-semibold tracking-wide uppercase">
-            <span className="text-amber-600 hover:underline cursor-pointer">Home</span>
+            <span className="text-blue-600 hover:underline cursor-pointer">Home</span>
             <FaChevronRight size={10} className="text-slate-400" />
             <span className="text-slate-500">About Us</span>
           </div>
@@ -64,7 +64,7 @@ export default function AboutPage() {
           <h2 className="text-3xl lg:text-4xl font-black text-slate-900 tracking-tight">
             Geek Online LLC
           </h2>
-          <p className="text-amber-600 font-bold text-sm uppercase tracking-wider">
+          <p className="text-blue-600 font-bold text-sm uppercase tracking-wider">
             Company Profile
           </p>
           <div className="space-y-4 text-slate-600 text-sm md:text-base leading-relaxed">
@@ -101,13 +101,13 @@ export default function AboutPage() {
         <div className="lg:col-span-4 bg-white border border-slate-100 rounded-3xl p-8 shadow-sm space-y-8">
           {/* Stat Item 1 */}
           <div className="flex items-center gap-5">
-            <div className="p-4 bg-amber-50 text-amber-600 rounded-2xl shrink-0">
+            <div className="p-4 bg-blue-50 text-blue-600 rounded-2xl shrink-0">
               <FaPhone size={24} />
             </div>
             <div>
               <div className="flex items-baseline gap-1">
                 <span className="text-3xl font-black text-slate-900">2M</span>
-                <span className="text-amber-600 font-bold text-lg">Calls</span>
+                <span className="text-blue-600 font-bold text-lg">Calls</span>
               </div>
               <p className="text-xs font-medium text-slate-400 uppercase tracking-wider">We Have Answered</p>
             </div>
@@ -116,13 +116,13 @@ export default function AboutPage() {
 
           {/* Stat Item 2 */}
           <div className="flex items-center gap-5">
-            <div className="p-4 bg-amber-50 text-amber-600 rounded-2xl shrink-0">
+            <div className="p-4 bg-blue-50 text-blue-600 rounded-2xl shrink-0">
               <FaRegThumbsUp size={24} />
             </div>
             <div>
               <div className="flex items-baseline gap-1">
                 <span className="text-3xl font-black text-slate-900">90</span>
-                <span className="text-amber-600 font-bold text-xl">%</span>
+                <span className="text-blue-600 font-bold text-xl">%</span>
               </div>
               <p className="text-xs font-medium text-slate-400 uppercase tracking-wider">Customer Satisfaction</p>
             </div>
@@ -131,13 +131,13 @@ export default function AboutPage() {
 
           {/* Stat Item 3 */}
           <div className="flex items-center gap-5">
-            <div className="p-4 bg-amber-50 text-amber-600 rounded-2xl shrink-0">
+            <div className="p-4 bg-blue-50 text-blue-600 rounded-2xl shrink-0">
               <FaRegClock size={24} />
             </div>
             <div>
               <div className="flex items-baseline gap-1">
                 <span className="text-3xl font-black text-slate-900">30</span>
-                <span className="text-amber-600 font-bold text-lg">Seconds</span>
+                <span className="text-blue-600 font-bold text-lg">Seconds</span>
               </div>
               <p className="text-xs font-medium text-slate-400 uppercase tracking-wider">Average Answer Time</p>
             </div>
@@ -159,7 +159,7 @@ export default function AboutPage() {
               <div className="w-12 h-12 text-slate-800 bg-slate-50 border border-slate-200 rounded-full flex items-center justify-center">
                 <Users2 size={24} strokeWidth={1.5} />
               </div>
-              <h3 className="text-xl font-bold text-amber-600">Customer-Centricity</h3>
+              <h3 className="text-xl font-bold text-blue-600">Customer-Centricity</h3>
               <p className="text-xs text-slate-500 leading-relaxed">
                 We place our customers at the core of everything we do. Our services are tailored to meet the specific needs of each client, ensuring maximum satisfaction and value.
               </p>
@@ -170,7 +170,7 @@ export default function AboutPage() {
               <div className="w-12 h-12 text-slate-800 bg-slate-50 border border-slate-200 rounded-full flex items-center justify-center">
                 <Lightbulb size={24} strokeWidth={1.5} />
               </div>
-              <h3 className="text-xl font-bold text-amber-600">Innovation</h3>
+              <h3 className="text-xl font-bold text-blue-600">Innovation</h3>
               <p className="text-xs text-slate-500 leading-relaxed">
                 We are always looking for fresh and innovative approaches to challenges. By embracing the latest technological advancements, we aim to provide innovative solutions that help our clients stay ahead in their industries.
               </p>
@@ -184,7 +184,7 @@ export default function AboutPage() {
               <div className="w-12 h-12 text-slate-800 bg-slate-50 border border-slate-200 rounded-full flex items-center justify-center">
                 <ShieldCheck size={24} strokeWidth={1.5} />
               </div>
-              <h3 className="text-xl font-bold text-amber-600">Professionalism</h3>
+              <h3 className="text-xl font-bold text-blue-600">Professionalism</h3>
               <p className="text-xs text-slate-500 leading-relaxed">
                 Every interaction with our clients reflects our commitment to professionalism. From communication to service delivery, we maintain the highest standards of quality and integrity.
               </p>
@@ -195,7 +195,7 @@ export default function AboutPage() {
               <div className="w-12 h-12 text-slate-800 bg-slate-50 border border-slate-200 rounded-full flex items-center justify-center">
                 <Users2 size={24} strokeWidth={1.5} />
               </div>
-              <h3 className="text-xl font-bold text-amber-600">Responsibility</h3>
+              <h3 className="text-xl font-bold text-blue-600">Responsibility</h3>
               <p className="text-xs text-slate-500 leading-relaxed">
                 We take full responsibility for our services and their impact on our clients&apos; operations. Our team is dedicated to providing reliable, accurate, and timely support to ensure that technology works seamlessly for our customers.
               </p>
@@ -206,7 +206,7 @@ export default function AboutPage() {
               <div className="w-12 h-12 text-slate-800 bg-slate-50 border border-slate-200 rounded-full flex items-center justify-center">
                 <BarChart3 size={24} strokeWidth={1.5} />
               </div>
-              <h3 className="text-xl font-bold text-amber-600">Continuous Improvement</h3>
+              <h3 className="text-xl font-bold text-blue-600">Continuous Improvement</h3>
               <p className="text-xs text-slate-500 leading-relaxed">
                 We believe in constantly improving our skills, services, and processes. By fostering a culture of learning and growth, we stay updated with the latest technology trends and advancements.
               </p>
@@ -258,11 +258,11 @@ export default function AboutPage() {
       <h2 className="text-3xl font-bold text-slate-900 mb-8">Vertical Expertise</h2>
       <div className="grid md:grid-cols-2 gap-8">
         {[
-          { icon: <FaHeartbeat className="text-amber-600" />, title: "Healthcare", desc: "Specialized technology solutions..." },
-          { icon: <FaChartPie className="text-amber-600" />, title: "Finance", desc: "Cybersecurity and IT management..." },
-          { icon: <FaStore className="text-amber-600" />, title: "Retail", desc: "Setting up secure networks..." },
-          { icon: <FaGraduationCap className="text-amber-600" />, title: "Education", desc: "IT infrastructure management..." },
-          { icon: <FaBriefcase className="text-amber-600" />, title: "Small and Medium Enterprises (SMEs)", desc: "End-to-end IT support..." }
+          { icon: <FaHeartbeat className="text-blue-600" />, title: "Healthcare", desc: "Specialized technology solutions..." },
+          { icon: <FaChartPie className="text-blue-600" />, title: "Finance", desc: "Cybersecurity and IT management..." },
+          { icon: <FaStore className="text-blue-600" />, title: "Retail", desc: "Setting up secure networks..." },
+          { icon: <FaGraduationCap className="text-blue-600" />, title: "Education", desc: "IT infrastructure management..." },
+          { icon: <FaBriefcase className="text-blue-600" />, title: "Small and Medium Enterprises (SMEs)", desc: "End-to-end IT support..." }
         ].map((item, i) => (
           <div key={i} className="flex gap-4 p-6 bg-white rounded-xl shadow-sm border border-slate-100">
             <div className="text-2xl pt-1">{item.icon}</div>

@@ -30,18 +30,18 @@ export default function CybersecuritySolutions() {
           </h1>
 
           <div className="flex items-center text-sm text-slate-600 gap-2">
-            <a href="/" className="hover:text-amber-600">
+            <a href="/" className="hover:text-blue-600">
               Home
             </a>
             <span>&gt;</span>
             <a
               href="/it-support-for-businesses"
-              className="hover:text-amber-600"
+              className="hover:text-blue-600"
             >
               IT Support for Businesses
             </a>
             <span>&gt;</span>
-            <span className="text-amber-600 font-semibold">
+            <span className="text-blue-600 font-semibold">
               Cybersecurity Solutions
             </span>
           </div>

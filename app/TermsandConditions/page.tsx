@@ -8,9 +8,9 @@ export default function TermsAndConditions() {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Terms and Conditions</h1>
           <div className="flex items-center text-sm text-slate-600 gap-2">
-            <a href="/" className="hover:text-amber-600">Home</a>
+            <a href="/" className="hover:text-blue-600">Home</a>
             <span>&gt;</span>
-            <span className="text-amber-600 font-semibold">Terms and Conditions</span>
+            <span className="text-blue-600 font-semibold">Terms and Conditions</span>
           </div>
         </div>
       </section>
@@ -29,7 +29,7 @@ export default function TermsAndConditions() {
               We are Geek Online LLC ("Company," "we," "us," "our"), a company registered in 212 N. 2nd St. STE 100, Richmond, KY 40475.
             </p>
             <p className="mt-4">
-              We operate the website <a href="https://www.geekonlinellc.com" className="text-amber-600 underline">https://www.geekonlinellc.com</a> (the "Site"), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").
+              We operate the website <a href="https://www.geekonlinellc.com" className="text-blue-600 underline">https://www.geekonlinellc.com</a> (the "Site"), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").
             </p>
             <p className="mt-4">
               You can contact us by email at billing@geekonlinellc.com or by mail to 212 N. 2nd St. STE 100, Richmond, KY 40475.
@@ -200,7 +200,7 @@ export default function TermsAndConditions() {
           <div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">8. PRIVACY POLICY</h3>
             <p>
-              We care about data privacy and security. Please review our Privacy Policy: <a href="https://www.geekonlinellc.com/PrivacyPolicy" className="text-amber-600 underline">https://www.geekonlinellc.com/PrivacyPolicy</a>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in the United States. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States, then through your continued use of the Services, you are transferring your data to the United States, and you expressly consent to have your data transferred to and processed in the United States.
+              We care about data privacy and security. Please review our Privacy Policy: <a href="https://www.geekonlinellc.com/PrivacyPolicy" className="text-blue-600 underline">https://www.geekonlinellc.com/PrivacyPolicy</a>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in the United States. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States, then through your continued use of the Services, you are transferring your data to the United States, and you expressly consent to have your data transferred to and processed in the United States.
             </p>
           </div>
 
@@ -247,7 +247,7 @@ export default function TermsAndConditions() {
             <h3 className="text-xl font-bold text-slate-900 mb-3">12. DISPUTE RESOLUTION</h3>
             <p className="font-semibold text-slate-800">Binding Arbitration</p>
             <p className="mt-2">
-              Any dispute arising out of or in connection with these Legal Terms, including any question regarding its existence, validity, or termination, shall be referred to and finally resolved by the International Commercial Arbitration Court under the European Arbitration Chamber (Belgium, Brussels, Avenue Louise, 146) according to the Rules of this ICAC, which, as a result of referring to it, is considered as the part of this clause.
+              Any dispute arising out of or in connection with these Legal Terms, including any question regarding its existence, validity, or termination, shall be referred to and finally resolved by the International Commercial Arbitration Court under the European Arbitration Chblue (Belgium, Brussels, Avenue Louise, 146) according to the Rules of this ICAC, which, as a result of referring to it, is considered as the part of this clause.
             </p>
             <p className="font-semibold text-slate-800 mt-6">Restrictions</p>
             <p className="mt-2">
@@ -352,7 +352,7 @@ export default function TermsAndConditions() {
               <p>212 N. 2nd St. STE 100,</p>
               <p> Richmond, KY 40475</p>
               <p className="mt-2">
-                Email: <a href="mailto:billing@geekonlinellc.com" className="text-amber-600 underline">billing@geekonlinellc.com</a>
+                Email: <a href="mailto:billing@geekonlinellc.com" className="text-blue-600 underline">billing@geekonlinellc.com</a>
               </p>
             </div>
           </div>

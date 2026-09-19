@@ -24,8 +24,8 @@ const ServiceCard = ({
     <div className="w-12 h-12 mb-4 text-3xl">{icon}</div>
     <h3 className="text-xl font-bold text-slate-900 mb-3">{title}</h3>
     <p className="text-slate-600 mb-6 text-sm leading-relaxed">{desc}</p>
-    {/* Updated button to use amber-600 to match your navbar and brand */}
-    <button className="bg-amber-600 text-white px-6 py-2 rounded-lg text-sm font-semibold hover:bg-amber-700 transition duration-150 shadow-md">
+    {/* Updated button to use blue-600 to match your navbar and brand */}
+    <button className="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition duration-150 shadow-md">
       Know More
     </button>
   </div>
@@ -36,11 +36,11 @@ export default function ConsultancyandAdvisoryServices() {
     <main className="bg-slate-50 min-h-screen">
       {/* Header Section */}
       <section className="bg-blue-50 py-16 text-center">
-        <h1 className="text-4xl font-bold text-amber-600">
+        <h1 className="text-4xl font-bold text-blue-600">
           Consultancy and Advisory Services
         </h1>
         <div className="flex justify-center items-center gap-2 mt-2 text-slate-600">
-          <span className="text-amber-600">Home</span>{" "}
+          <span className="text-blue-600">Home</span>{" "}
           <FaChevronRight size={12} />{" "}
           <span>Consultancy and Advisory Services</span>
         </div>
