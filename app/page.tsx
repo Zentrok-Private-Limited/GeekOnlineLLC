@@ -1,398 +1,138 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-import {
-  FaChevronDown,
-  FaPhone,
-  FaRegEnvelope,
-  FaMapPin,
-  FaRegMessage,
-  FaShieldHalved,
-  FaLaptop,
-  FaCode,
-  FaChartLine,
-  FaGears,
-  FaUsers,
-  FaChevronLeft,
-  FaChevronRight,
-  FaPlus,
-  FaMinus,
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa6";
-import { FiSend } from "react-icons/fi";
+import React from 'react';
 
-export default function LandingPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
-
-  const toggleFaq = (index: number) => {
-    setOpenFaq(openFaq === index ? null : index);
+export default function RegionSelectPage() {
+  const handleSelect = (region) => {
+    console.log(`Selected region: ${region}`);
+    window.location.href = 'https://www.geeksupportpro.com';
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 font-sans antialiased">
-      {/* ================= HERO SECTION 1 ================= */}
-      <section className="relative bg-gradient-to-b from-blue-50/40 via-white to-transparent px-6 py-16 md:py-16 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <div className="space-y-6">
-          <p className="text-xl md:text-2xl lg:text-3xl font-black text-slate-900 leading-tight">
-            A one-stop solution for <br />
-          </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl bg-clip-text font-black text-transparent bg-gradient-to-r from-blue-800 to-blue-600">
-            IT Services, Support, and Consulting
-          </h2>
-          <p className="text-slate-600 text-base md:text-lg leading-relaxed max-w-xl">
-            Committed to excellence, we offer expert technical and operational
-            support, delivering tailored, best-in-class solutions. Our dedicated
-            team ensures seamless service, proactive troubleshooting, and
-            round-the-clock assistance—keeping your business secure, efficient,
-            and always connected.
-          </p>
+    <main className="relative min-h-screen w-full overflow-hidden bg-gradient-to-br from-[#00d2ff] via-[#3a7bd5] to-[#4353ff] flex flex-col justify-between p-6 sm:p-12 text-white">
+      {/* Background Decorative Ambient Glows */}
+      <div className="absolute top-[-10%] right-[-10%] w-72 h-72 sm:w-96 sm:h-96 bg-cyan-300/20 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-[-10%] left-[-10%] w-80 h-80 sm:w-[30rem] sm:h-[30rem] bg-blue-600/30 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="flex items-center gap-4 pt-2">
-            <div className="flex -space-x-2">
-              {[1, 2, 3, 4].map((i) => (
-                <div
-                  key={i}
-                  className="w-9 h-9 rounded-full bg-slate-300 border-2 border-white flex items-center justify-center text-[10px] font-bold text-slate-600"
-                >
-                  U{i}
-                </div>
-              ))}
-            </div>
-            <p className="text-xs font-semibold text-blue-600">
-              Trusted by 1M+ people around the globe
-            </p>
-          </div>
+      {/* Top Header Section */}
+      <div className="relative z-10 max-w-md mx-auto w-full pt-6 sm:pt-12">
+        <p className="text-cyan-100 font-medium text-lg sm:text-xl tracking-wide opacity-90">
+          Welcome
+        </p>
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mt-1 leading-snug">
+          Select your region <br /> to continue
+        </h1>
+      </div>
 
-          <div className="flex flex-wrap gap-4 pt-4">
-            <button className="bg-gradient-to-r from-blue-600 to-blue-700 text-white font-medium px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5">
-              Let&apos;s Talk
-            </button>
-            <button className="border border-slate-300 text-slate-700 font-medium px-6 py-3 rounded-lg hover:bg-slate-50 transition">
-              Contact Us
-            </button>
-          </div>
-        </div>
-
-        <div className="relative justify-self-center lg:justify-self-end">
-          {/* The decorative background shadow */}
-          <div className="absolute inset-0 bg-blue-600/10 rounded-2xl transform translate-x-3 translate-y-3 -z-10"></div>
-
-          {/* Right Column: Image */}
-          <div className="relative w-full max-w-lg mx-auto md:mx-0">
-            {/* Decorative Background */}
-            <div className="absolute inset-0 bg-blue-600/10 rounded-2xl rotate-3 scale-[1.02] -z-10"></div>
-
-            {/* Image Container with Aspect Ratio */}
-            <div className="relative w-full aspect-[4/3] rounded-2xl border-4 border-white shadow-2xl overflow-hidden">
-              <img
-                src="/hero.jpg"
-                alt="Geek Online Team"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= HERO SECTION 2 (Stats Banner) ================= */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-950 text-white py-16 px-6">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
-            <span className="text-xs uppercase font-bold tracking-widest text-blue-300">
-              Technology on Demand
-            </span>
-            <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">
-              Innovative Tech Solutions, IT Services, and Consulting - 24/7 IT
-              Support for Seamless Operations.
-            </h2>
-            <p className="text-blue-100 text-sm md:text-base leading-relaxed opacity-90">
-              We provide 24/7 support with experts in network configuration,
-              cybersecurity, troubleshooting, and other areas. Our solutions are
-              expertly designed to minimize downtime and maximize efficiency.
-            </p>
-
-            <div className="flex flex-wrap gap-4 pt-4">
-              <div className="bg-white text-slate-900 rounded-xl p-6 shadow-md min-w-[140px] text-center flex-1">
-                <span className="block text-3xl font-black text-blue-600">
-                  1M+
-                </span>
-                <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-                  Queries Resolved
-                </span>
+      {/* Center Selection Buttons Container */}
+      <div className="relative z-10 max-w-md mx-auto w-full flex flex-col gap-4 my-auto py-8">
+        {/* Canada Button */}
+        <button
+          onClick={() => handleSelect('Canada')}
+          className="group relative flex items-center justify-between w-full p-4 sm:p-5 rounded-2xl bg-white/15 backdrop-blur-md border border-white/30 shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] hover:bg-white/25 hover:border-white/50 transition-all duration-300 active:scale-[0.98] cursor-pointer"
+        >
+          <div className="flex items-center gap-4">
+            {/* Canada Flag Icon */}
+            <div className="w-12 h-8 sm:w-14 sm:h-9 rounded-md overflow-hidden shadow-sm flex-shrink-0 flex border border-white/20">
+              <div className="w-1/4 bg-[#ff0000]" />
+              <div className="w-2/4 bg-white flex items-center justify-center">
+                <svg viewBox="0 0 32 32" className="w-5 h-5 text-[#ff0000]" fill="currentColor">
+                  <path d="M16 4l2.5 5.5L25 10l-4.5 4L22 21l-6-3.5L10 21l1.5-7L7 10l6.5-.5z" />
+                </svg>
               </div>
-              <div className="bg-white text-slate-900 rounded-xl p-6 shadow-md min-w-[140px] text-center flex-1">
-                <span className="block text-3xl font-black text-blue-600">
-                  50K+
-                </span>
-                <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-                  Happy Clients
-                </span>
+              <div className="w-1/4 bg-[#ff0000]" />
+            </div>
+            <span className="text-lg sm:text-xl font-semibold tracking-wide">Canada</span>
+          </div>
+
+          {/* Arrow Indicator */}
+          <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white group-hover:text-blue-600 transition-all duration-300">
+            <svg className="w-4 h-4 translate-x-0.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </button>
+
+        {/* United States Button */}
+        <button
+          onClick={() => handleSelect('United States')}
+          className="group relative flex items-center justify-between w-full p-4 sm:p-5 rounded-2xl bg-white/15 backdrop-blur-md border border-white/30 shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] hover:bg-white/25 hover:border-white/50 transition-all duration-300 active:scale-[0.98] cursor-pointer"
+        >
+          <div className="flex items-center gap-4">
+            {/* US Flag Icon */}
+            <div className="w-12 h-8 sm:w-14 sm:h-9 rounded-md overflow-hidden shadow-sm flex-shrink-0 bg-blue-900 relative border border-white/20 flex flex-col justify-between">
+              <div className="absolute inset-0 flex flex-col justify-between p-0.5">
+                <div className="h-full bg-[#bf0a30] w-full" />
+                <div className="h-full bg-white w-full" />
+                <div className="h-full bg-[#bf0a30] w-full" />
+                <div className="h-full bg-white w-full" />
+                <div className="h-full bg-[#bf0a30] w-full" />
+              </div>
+              <div className="absolute top-0 left-0 w-6 h-4 bg-[#3c3b6e] flex items-center justify-center text-[6px] text-white">
+                ★
               </div>
             </div>
-
-            <button className="inline-flex items-center gap-2 border-2 border-white/30 hover:border-white text-white font-medium px-6 py-3 rounded-lg transition mt-4">
-              <FaPhone size={12} /> Call Us
-            </button>
+            <span className="text-lg sm:text-xl font-semibold tracking-wide">United States</span>
           </div>
 
-          <div className="bg-white/10 p-4 rounded-2xl backdrop-blur-sm border border-white/10">
-            <div className="w-full h-64 md:h-96 bg-slate-800/50 rounded-xl flex items-center justify-center text-slate-400">
-              <img src="/group.jpg" alt="" className="rounded-xl" />
-            </div>
+          {/* Arrow Indicator */}
+          <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white group-hover:text-blue-600 transition-all duration-300">
+            <svg className="w-4 h-4 translate-x-0.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
           </div>
+        </button>
+      </div>
+
+      {/* Enhanced Realistic Globe Illustration */}
+      <div className="relative w-full flex justify-end pointer-events-none mt-auto overflow-hidden h-[220px] sm:h-[320px]">
+        <div className="absolute -right-16 sm:-right-10 -bottom-20 sm:-bottom-28 w-[380px] sm:w-[540px] h-[380px] sm:h-[540px] opacity-80">
+          
+          {/* Outer Atmospheric Glow Sphere */}
+          <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-400/20 via-blue-500/10 to-transparent blur-xl" />
+
+          {/* Main Globe Body with Continents Silhouette via SVG */}
+          <svg
+            viewBox="0 0 500 500"
+            className="w-full h-full text-blue-200/30 drop-shadow-[0_0_25px_rgba(0,210,255,0.2)]"
+            fill="currentColor"
+          >
+            {/* Globe Base Circle */}
+            <circle cx="250" cy="250" r="220" className="text-blue-950/40" fill="currentColor" />
+            <circle cx="250" cy="250" r="220" className="text-cyan-400/20" fill="none" stroke="currentColor" strokeWidth="2" />
+
+            {/* Latitude & Longitude Grid Lines */}
+            <ellipse cx="250" cy="250" rx="220" ry="90" fill="none" stroke="currentColor" strokeWidth="1.5" strokeDasharray="6 6" className="opacity-60" />
+            <ellipse cx="250" cy="250" rx="90" ry="220" fill="none" stroke="currentColor" strokeWidth="1.5" strokeDasharray="6 6" className="opacity-60" />
+            <line x1="30" y1="250" x2="470" y2="250" stroke="currentColor" strokeWidth="1.5" className="opacity-50" />
+            <line x1="250" y1="30" x2="250" y2="470" stroke="currentColor" strokeWidth="1.5" className="opacity-50" />
+
+            {/* Stylized Continent Landmass Shapes (North America / World Map Vector feel) */}
+            <path
+              d="M180,140 Q220,110 270,130 T340,180 Q380,220 360,280 T300,360 Q240,380 190,340 T150,260 Q130,190 180,140 Z"
+              className="text-cyan-300/25"
+              fill="currentColor"
+            />
+            <path
+              d="M280,120 Q330,100 370,140 T410,220 Q390,270 340,250 T280,120 Z"
+              className="text-blue-300/30"
+              fill="currentColor"
+            />
+            <path
+              d="M120,280 Q160,260 190,310 T140,380 Q100,350 120,280 Z"
+              className="text-cyan-200/20"
+              fill="currentColor"
+            />
+          </svg>
+
+          {/* Dynamic Glowing Orbital Rings */}
+          <div className="absolute inset-[-20px] rounded-full border border-cyan-300/40 rotate-[-25deg] scale-y-50 pointer-events-none shadow-[0_0_15px_rgba(0,210,255,0.3)]" />
+          <div className="absolute inset-[-50px] rounded-full border border-dashed border-white/20 rotate-[15deg] scale-y-40 pointer-events-none" />
+          
+          {/* Horizon Gradient Fade */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#3a7bd5]/80 via-transparent to-transparent rounded-full pointer-events-none" />
         </div>
-      </section>
-
-      {/* ================= SECTION 3: EXPERTISE ================= */}
-      <section className="max-w-7xl mx-auto px-6 py-20">
-        <h2 className="text-3xl md:text-4xl font-black text-center text-slate-900 mb-14">
-          Explore Our Expertise & Featured Solutions
-        </h2>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {[
-            {
-              title: "Expert Tech Support",
-              icon: <FaGears />,
-              desc: "Experience unparalleled reliability with our expert tech support, ensuring your systems run smoothly.",
-            },
-            {
-              title: "IT Support for Businesses",
-              icon: <FaLaptop />,
-              desc: "Reliable IT support solutions that keep your business running smoothly, minimize downtime, and boost efficiency.",
-            },
-            {
-              title: "IT Consultancy & Advisory",
-              icon: <FaUsers />,
-              desc: "Expert consultancy and advisory services to guide businesses in making informed, strategic technology choices.",
-            },
-            {
-              title: "Cybersecurity Services",
-              icon: <FaShieldHalved />,
-              desc: "Protect your business with advanced cybersecurity solutions, threat detection, and defense against attacks.",
-            },
-            {
-              title: "Digital Marketing",
-              icon: <FaChartLine />,
-              desc: "Elevate your brand's online presence with tailored digital marketing strategies that drive high conversions.",
-            },
-            {
-              title: "Website Design & Development",
-              icon: <FaCode />,
-              desc: "Building aesthetically beautiful and highly useful websites that increase interaction and produce outcomes.",
-            },
-          ].map((item, idx) => (
-            <div
-              key={idx}
-              className="bg-white border border-slate-100 rounded-xl p-6 shadow-sm hover:shadow-md transition flex gap-4 items-start group"
-            >
-              <div className="p-3 bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white rounded-lg transition duration-300 shrink-0">
-                {item.icon}
-              </div>
-              <div>
-                <h3 className="font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition">
-                  {item.title}
-                </h3>
-                <p className="text-xs text-slate-500 leading-relaxed">
-                  {item.desc}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ================= SECTION 4: HOW WE SERVE ================= */}
-      <section className="bg-slate-50 border-y border-slate-100 py-20 px-6">
-        <div className="max-w-7xl mx-auto text-center space-y-4 mb-14">
-          <span className="text-sm font-bold text-blue-600 uppercase tracking-widest">
-            How We Serve
-          </span>
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900">
-            In just 3 Simple Steps
-          </h2>
-        </div>
-
-        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
-          {[
-            {
-              step: "01",
-              title: "Reach Us",
-              desc: "We're here to help you around the clock.",
-              img: "/support1.jpg",
-            },
-            {
-              step: "02",
-              title: "Share Your Concern",
-              desc: "Bring your grievances here for immediate assistance.",
-              img: "/support2.jpg",
-            },
-            {
-              step: "03",
-              title: "Get Your Problem Resolved",
-              desc: "Fast resolution of your problems with expert live help.",
-              img: "/support3.jpg",
-            },
-          ].map((s, idx) => (
-            <div
-              key={idx}
-              className="bg-white border border-slate-100 rounded-2xl p-6 text-center shadow-sm space-y-4 hover:-translate-y-1 transition duration-300"
-            >
-              <div className="w-full h-40 bg-slate-100 rounded-xl flex items-center justify-center text-slate-400">
-                <img src={s.img} alt="" />
-              </div>
-              <div className="inline-block px-3 py-1 bg-blue-50 text-blue-600 font-bold text-xs rounded-full">
-                Step {s.step}
-              </div>
-              <h3 className="font-bold text-lg text-slate-900">{s.title}</h3>
-              <p className="text-xs text-slate-500 max-w-[200px] mx-auto">
-                {s.desc}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ================= SECTION 5: IMMEDIATE ASSISTANCE CTA ================= */}
-      <section className="max-w-5xl mx-auto px-6 py-16">
-        <div className="bg-gradient-to-r from-blue-900 to-blue-950 border border-blue-100 rounded-3xl p-8 md:p-12 grid md:grid-cols-2 gap-8 items-center relative overflow-hidden">
-          <div className="space-y-4 z-10">
-            <h2 className="text-2xl md:text-3xl font-black text-blue-50">
-              Need Immediate Assistance?
-            </h2>
-            <p className="text-sm text-slate-50 leading-relaxed">
-              Use our live chat feature to get instantaneous IT assistance from
-              a top support specialist. We&apos;ll keep you on track with
-              everything from helpdesk to IT services and consulting.
-            </p>
-            <button className="bg-gradient-to-r from-blue-600 to-blue-700 text-white font-medium px-6 py-3 rounded-lg shadow-md inline-flex items-center gap-2">
-              <FaRegMessage size={14} /> Let&apos;s Talk
-            </button>
-          </div>
-          <div className="relative justify-self-center z-10">
-            <div className="w-100 h-70 bg-white/80 rounded-xl shadow-lg border border-slate-200/50 flex items-center justify-center text-slate-400">
-              <img src="/customer_support.jpg" alt="" />
-            </div>
-          </div>
-          <div className="absolute right-[-20px] bottom-[-20px] text-blue-100 opacity-20 transform scale-[3] pointer-events-none">
-            <FaPhone size={120} />
-          </div>
-        </div>
-      </section>
-
-      {/* ================= SECTION 6: TESTIMONIALS ================= */}
-      <section className="bg-slate-50 py-20 px-6">
-        <div className="max-w-7xl mx-auto text-center space-y-3 mb-12">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900">
-            Our Beaming Faces
-          </h2>
-          <p className="text-blue-600 font-medium text-sm">
-            What they think about Geek Online LLC
-          </p>
-        </div>
-
-        <div className="max-w-6xl mx-auto flex items-center gap-4">
-          <button className="p-2 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-600 shrink-0 shadow-sm">
-            <FaChevronLeft size={16} />
-          </button>
-
-          <div className="grid md:grid-cols-3 gap-6 w-full">
-            {[
-              {
-                name: "Sarah Mitchell",
-                location: "Illinois",
-                text: "Their IT helpdesk was able to resolve my technical issue within hours. I can't believe how fast and easy it was to get the assistance needed.",
-              },
-              {
-                name: "David Johnson",
-                location: "Ohio",
-                text: "I've never experienced better IT support. Geek Online LLC provided excellent advice on improving my company's data architecture.",
-              },
-              {
-                name: "John Peterson",
-                location: "New York",
-                text: "Geek Online LLC service saved me when my computer crashed right before a major client pitch. Their 24/7 support is a lifesaver.",
-              },
-            ].map((t, idx) => (
-              <div
-                key={idx}
-                className="bg-white border border-slate-100 rounded-2xl p-6 shadow-sm flex flex-col justify-between space-y-4"
-              >
-                <p className="text-xs italic text-slate-600 leading-relaxed">
-                  &ldquo;{t.text}&rdquo;
-                </p>
-                <div>
-                  <h4 className="font-bold text-slate-900 text-sm">{t.name}</h4>
-                  <div className="flex items-center justify-between mt-1">
-                    <span className="text-[11px] text-slate-400 font-medium">
-                      {t.location}
-                    </span>
-                    <span className="text-blue-500 text-xs font-bold">
-                      ★★★★★
-                    </span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <button className="p-2 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-600 shrink-0 shadow-sm">
-            <FaChevronRight size={16} />
-          </button>
-        </div>
-      </section>
-
-      {/* ================= SECTION 7: FAQS ================= */}
-      <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-5 gap-12 items-start">
-        <div className="md:col-span-2 space-y-4">
-          <span className="text-sm font-bold text-blue-600 uppercase tracking-widest">
-            FAQs
-          </span>
-          <h2 className="text-3xl font-black text-slate-900 leading-tight">
-            Answers to Your Most Common Questions About IT Services
-          </h2>
-          <div className="text-slate-400/50 text-8xl font-black select-none pointer-events-none hidden md:block">
-            FAQS
-          </div>
-        </div>
-
-        <div className="md:col-span-3 bg-white border border-slate-100 rounded-2xl p-6 shadow-sm divide-y divide-slate-100">
-          {[
-            "What is the difference between IT service and IT support?",
-            "What kind of IT Support Services are needed for Businesses?",
-            "What are the examples of Support Services?",
-            "What kind of services do IT Support Services have?",
-            "How do I avail of IT Support Services?",
-            "What does an advisory consultant do?",
-          ].map((q, idx) => (
-            <div key={idx} className="py-4 first:pt-0 last:pb-0">
-              <button
-                onClick={() => toggleFaq(idx)}
-                className="w-full flex items-center justify-between text-left font-semibold text-slate-800 hover:text-blue-600 transition gap-4 text-sm md:text-base"
-              >
-                <span>{q}</span>
-                {openFaq === idx ? (
-                  <FaMinus size={14} className="text-blue-600 shrink-0" />
-                ) : (
-                  <FaPlus size={14} className="text-slate-400 shrink-0" />
-                )}
-              </button>
-              {openFaq === idx && (
-                <p className="mt-3 text-xs text-slate-500 leading-relaxed transition-all">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                  leo. Our structural solutions match business criteria
-                  seamlessly.
-                </p>
-              )}
-            </div>
-          ))}
-        </div>
-      </section>
-    </div>
+      </div>
+    </main>
   );
 }
