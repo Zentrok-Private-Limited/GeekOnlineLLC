@@ -3,7 +3,7 @@
 import React from 'react';
 
 export default function RegionSelectPage() {
-  const handleSelect = (region) => {
+  const handleSelect = (region : string) => {
     console.log(`Selected region: ${region}`);
     window.location.href = 'https://www.geeksupportpro.com';
   };
