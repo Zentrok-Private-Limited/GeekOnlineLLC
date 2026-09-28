@@ -16,7 +16,7 @@ export default function RegionSelectPage() {
       <div className="absolute bottom-[-10%] left-[-10%] w-80 h-80 sm:w-[30rem] sm:h-[30rem] bg-blue-600/30 rounded-full blur-3xl pointer-events-none" />
 
       {/* Top Header Section */}
-      <div className="relative z-10 max-w-xl mx-auto w-full pt-6 sm:pt-12">
+      <div className="relative z-10 max-w-2xl mx-auto w-full">
         <p className="text-cyan-100 font-bold text-xl md:text-3xl tracking-wide opacity-90">
           Welcome
         </p>
@@ -27,7 +27,7 @@ export default function RegionSelectPage() {
       </div>
 
       {/* Center Selection Buttons Container */}
-      <div className="relative z-10 max-w-lg mx-auto w-full flex flex-col gap-4 my-auto py-8 mt-5">
+      <div className="relative z-10 max-w-2xl mx-auto w-full flex flex-col gap-4 my-auto py-8 mt-5">
 
         {/* Canada Button */}
         <button
@@ -37,7 +37,7 @@ export default function RegionSelectPage() {
           <div className="flex items-center gap-4">
 
             {/* Canada Flag Image */}
-            <div className="w-12 h-8 sm:w-14 sm:h-9 rounded-md overflow-hidden shadow-sm flex-shrink-0 border border-white/20">
+            <div className="w-12 h-8 md:w-20 md:h-15 rounded-md overflow-hidden shadow-sm flex-shrink-0 border border-white/20">
               <img
                 src="https://flagcdn.com/w160/ca.png"
                 alt="Canada flag"
@@ -45,7 +45,7 @@ export default function RegionSelectPage() {
               />
             </div>
 
-            <span className="text-2xl sm:text-3xl font-semibold tracking-wide">
+            <span className="text-2xl md:text-4xl font-semibold tracking-wide">
               Canada
             </span>
           </div>
@@ -76,7 +76,7 @@ export default function RegionSelectPage() {
           <div className="flex items-center gap-4">
 
             {/* United States Flag Image */}
-            <div className="w-12 h-8 sm:w-14 sm:h-9 rounded-md overflow-hidden shadow-sm flex-shrink-0 border border-white/20">
+            <div className="w-12 h-8 md:w-20 md:h-15 rounded-md overflow-hidden shadow-sm flex-shrink-0 border border-white/20">
               <img
                 src="https://flagcdn.com/w160/us.png"
                 alt="United States flag"
@@ -84,7 +84,7 @@ export default function RegionSelectPage() {
               />
             </div>
 
-            <span className="text-2xl sm:text-3xl font-semibold tracking-wide">
+            <span className="text-2xl md:text-4xl font-semibold tracking-wide">
               United States
             </span>
           </div>
